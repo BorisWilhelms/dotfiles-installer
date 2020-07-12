@@ -18,4 +18,3 @@ fi;
 config checkout
 config config status.showUntrackedFiles no
 config config diff.tool vimdiff
-config config alias.save "!f(){config add $1 && config commit -m "Updates config" && config push}; f"
